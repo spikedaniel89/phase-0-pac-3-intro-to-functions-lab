@@ -17,11 +17,11 @@ function logWhisper(string) {
 function sayHiToHeadphonedRoommate(string) {
     switch (true) {
         case string === string.toLowerCase():
-            return '"I can\'t hear you!"'
+            return "I can't hear you!"
         case string === string.toUpperCase():
-            return '"YES INDEED!"'
+            return "YES INDEED!"
         case string === "Let's have dinner together!":
-            return '"I would love to!"'
+            return "I would love to!"
         default:
             return "Headphoned Roommate did not respond."
         }
